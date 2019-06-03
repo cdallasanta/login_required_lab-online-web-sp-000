@@ -7,6 +7,7 @@ class ApplicationController < ActionController::Base
   end
 
   def current_user
+    binding.pry
     params[:name]
   end
 end
