@@ -7,6 +7,6 @@ class ApplicationController < ActionController::Base
   end
 
   def current_user
-    params[:username]
+    params[:name]
   end
 end
