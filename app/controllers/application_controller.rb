@@ -7,7 +7,6 @@ class ApplicationController < ActionController::Base
   end
 
   def current_user
-    binding.pry
     session[:name]
   end
 end
