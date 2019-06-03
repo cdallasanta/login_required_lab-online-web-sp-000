@@ -8,6 +8,6 @@ class ApplicationController < ActionController::Base
 
   def current_user
     binding.pry
-    params[:name]
+    session[:name]
   end
 end
